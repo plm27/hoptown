@@ -1,0 +1,292 @@
+body {
+    background-color: #BFA252;
+}
+
+.container {
+    background-color: #FFF2A1;
+    margin: auto;
+    max-width: 1024px;
+}
+
+
+/*does this do anything?*/
+
+#logo {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.logoprime {
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.navbar ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar a {
+    color: #63A535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding: 7px 18px;
+}
+
+.navbar a:visited {
+    color: #BF6E11;
+}
+
+.navbar li a:hover {
+    background-color: #F7F1C6;
+}
+
+.navbar a:active {
+    color: #555859;
+}
+
+.active {
+    background-color: #FFBC18;
+}
+
+.hero {
+    text-align: center;
+    background-color: gray;
+    background-size: cover;
+    width: 1024px;
+    height: 525px;
+    margin: auto;
+}
+
+.hero h1 {
+    display: inline-block;
+    padding-top: 100px;
+    color: #afbc88;
+    font-size: 6em;
+    letter-spacing: 5px;
+    font-family: 'Impact', sans-serif;
+    text-align: center;
+}
+
+.about_hero {
+    text-align: center;
+    background-image: url(../images/about_hero.png);
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+
+/*text*/
+
+.text {
+    margin: 0px 75px 0px 75px;
+    color: #63A535;
+    font-family: 'open sans', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+
+/*gallery*/
+
+.imagelib {
+    text-align: center;
+}
+
+.box1 {
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-image: url("../images/grains.jpg")
+}
+
+.box2 {
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-image: url("../images/cheers.jpg")
+}
+
+.box3 {
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-image: url("../images/hop_harvest.png")
+}
+
+
+/*Visit Page*/
+
+.visit_hero {
+    background-image: url(../images/visit_hero.png);
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+.addresspic {
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    display: inline-block;
+    margin: 1.5em;
+    vertical-align: top;
+}
+
+.address {
+    background-color: #73BA41;
+    color: #FFF2A1;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 1.5em;
+    vertical-align: top;
+    font-family: 'quattrocento sans', sans-serif;
+}
+
+.hours {
+    background-color: #73BA41;
+    color: #FFF2A1;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 1.5em;
+    vertical-align: top;
+    font-family: 'quattrocento sans', sans-serif;
+}
+
+.addressbox {
+    text-align: center;
+}
+
+.visititem {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #FFBC18;
+}
+
+#check {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#eventslink {
+    text-decoration: none;
+    color: #BF6E11;
+}
+
+.day {
+    float: left;
+    margin-left: 10px;
+}
+
+.time {
+    float: right;
+    margin-right: 10px;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/oak.jpg);
+    text-align: center;
+}
+
+.footbox1 {
+    height: auto;
+    width: 300px;
+    display: inline-block;
+}
+
+.footbox2 {
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    color: #FFF2A1;
+    font-size: 18px;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 15px;
+    width: 18px;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#hash {
+    font-size: 25px;
+    text-align: center;
+    color: #FFF2A1;
+}
+
+.label {
+    font-size: 20px;
+    color: #FFF2A1;
+}
+
+.social {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.footbox3 {
+    display: inline-block;
+}

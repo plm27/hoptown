@@ -1,0 +1,442 @@
+/*outside container*/
+
+body {
+    background-color: #BFA252;
+    /*background-color: #FFD182;*/
+}
+
+.container {
+    background-color: #FFF2A1;
+    margin: auto;
+    max-width: 1024px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.logoprime {
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.navbar ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar li a {
+    color: #63A535;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+    padding: 7px 18px;
+}
+
+.navbar a:hover {
+    background-color: #F7F1C6;
+}
+
+.navbar a:active {
+    color: #555859;
+}
+
+.active {
+    background-color: #FFBC18;
+}
+
+.index_hero {
+    text-align: center;
+    background-image: url('../images/index_hero.png');
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+.hero_beer {
+    text-align: center;
+    background-image: url('../images/beer_hero.png');
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+
+/*not using anymore
+.hero_beer h1 {
+    display:inline-block;
+    padding-top:100px;
+    color: #FFBC18;
+    font-size: 6em;
+    letter-spacing: 5px;
+    font-family: 'Impact', sans-serif;
+    text-align: center;
+}*/
+
+.clank {
+    margin: 0px 75px 0px 75px;
+    color: #63A535;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4em;
+}
+
+.clank2 a {
+    text-decoration: none;
+    color: #63A535;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+}
+
+.text {
+    margin: 0px 75px 0px 75px;
+    color: #63A535;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+}
+
+.text li a {
+    text-decoration: none;
+}
+
+.imagelib {
+    height: auto;
+    text-align: center;
+}
+
+.wrapper {
+    width: 240px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lager {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/beer_type_lager.png");
+    display: inline-block;
+    margin: 20px;
+}
+
+.ipa {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/beer_type_ipa.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.porter {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/beer_type_porter.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.beerstyle {
+    color: #63A535;
+    font-size: 18px;
+    font-family: 'quattrocento sans', sans-serif;
+    margin-top: -15px;
+}
+
+.name {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'quattrocento sans', sans-serif;
+}
+
+
+/*About */
+
+.about_hero {
+    text-align: center;
+    background-image: url(../images/about_hero.png);
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+.imagelib {
+    text-align: center;
+}
+
+.box1 {
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-image: url("../images/grains1.jpg");
+    background-size: cover;
+}
+
+.box2 {
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-image: url("../images/cheers1.jpg");
+    background-size: cover;
+}
+
+.box3 {
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-image: url("../images/hop_harvest.png")
+}
+
+
+/*Visit Page*/
+
+.visit_hero {
+    background-image: url(../images/visit_hero.png);
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+.addresspic {
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    display: inline-block;
+    margin: 1.5em;
+    vertical-align: top;
+}
+
+.address {
+    background-color: #63a535;
+    background-color: rgba(99, 165, 53, .76);
+    color: #FFF2A1;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 1.5em;
+    vertical-align: top;
+    font-family: 'quattrocento sans', sans-serif;
+    font-size:17px;
+}
+
+.hours {
+    background-color: #63a535;
+    background-color: rgba(99, 165, 53, .76);
+    color: #FFF2A1;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 1.5em;
+    vertical-align: top;
+    font-family: 'quattrocento sans', sans-serif;
+    font-size:17px;
+}
+
+.addressbox {
+    text-align: center;
+}
+
+.visititem {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #FFBC18;
+}
+
+#check {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#eventslink {
+    text-decoration: none;
+    color: #BF6E11;
+}
+
+.day {
+    float: left;
+    margin-left: 10px;
+}
+
+.time {
+    float: right;
+    margin-right: 10px;
+}
+
+
+/*Events Page*/
+
+.hero_events {
+    text-align: center;
+    background-image: url('../images/events_hero.png');
+    background-size: cover;
+    width: 1024px;
+    height: 500px;
+    margin: auto;
+}
+
+.event_1 {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/blind_taste_event.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.event_2 {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/event_2.jpg");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.event_3 {
+    width: 200px;
+    height: 300px;
+    background-image: url("../images/guided_taste_event.png");
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+/*cheers gif*/
+
+.giphy {
+    margin: auto;
+    display: block;
+}
+
+
+/*footer*/
+
+.cc {
+    text-align: right;
+    color: #63A535;
+    font-family: 'Oswald', sans-serif;
+    font-size: .6em;
+}
+
+.cc a {
+    text-decoration: none;
+    color: #63A535;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-image: url(../images/oak.jpg);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footbox1 {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.footbox2 {
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    color: #FFF2A1;
+    font-size: 18px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.footbox3 {
+    display: inline-block;
+    vertical-align:top;
+    margin-top:10px;
+    font-size:22px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 18px;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#hash {
+    font-size: 22px;
+    text-align: center;
+    color: #FFF2A1;
+    margin-top: 0px;
+}
+
+.label {
+    font-size: 20px;
+    color: #FFF2A1;
+}
+.sign{margin-top:-25px;}
+.social {
+    margin-top: -20px;
+}
